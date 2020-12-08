@@ -21,7 +21,28 @@ img, #searchBox {display: block;
     margin-right: auto;}
         
     img {margin-top: 200px}
-        
-
+    li{
+        display: inline;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(221, 169, 169);
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(12, 10, 10);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
    
     
